@@ -52,25 +52,36 @@
                     </header><!--.col-xs-12-->
             <div style="display: block">
                 <section class="skills-section row" id="skills">
-                        <script src="./js/utility-functions.js">
-                            loadSkills();
+                        <script>
+                            $(document).ready(function()
+                            {
+                                $('#skills').load('./skills.html');
+                            });
                         </script>
-                           
                     </section>
                     <section class="portfolio-section row" id="portfolio">
-                        <script src="./js/utility-functions.js">
-                            loadSkills();
+                        <script>
+                            $(document).ready(function()
+                            {
+                                $('#portfolio').load('./portfolio-items.html');
+                            });
                         </script>
                     </section>
                     
                     <section class="projects-section row" id="projects">
-                        <script src="./js/utility-functions.js">
-                            loadSkills();
+                        <script>
+                            $(document).ready(function()
+                            {
+                                $('#projects').load('./projects.html');
+                            });
                         </script>
                     </section>
                     <section class="contact-section row" id="contact">
-                        <script src="./js/utility-functions.js">
-                            loadSkills();
+                        <script>
+                            $(document).ready(function()
+                            {
+                                $('#contact').load('./contact.html');
+                            });
                         </script>
                     </section>
             </div>
